@@ -1,0 +1,168 @@
+/** --------------------------------------- 
+                HOME PAGE
+    --------------------------------------- 
+**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/** --------------------------------------- **/
+body{
+    background-color: #ffffff;
+}
+/** HEADER **/
+.header{ 
+    /**Taille de l'écran plus grand que 1920 **/
+    width:auto;
+    background-color: #333;
+    padding: 20px;
+}
+/** NAV **/
+.navigation {
+   display: inline-block; 
+   padding: 1.3em;
+   font-size: 1.3em;
+}
+/** COLOR TXT **/
+.headwhite {
+    color: #ffffff;
+}
+/** A MODIFIER TAILLE LOGO **/
+.logo {
+    height: 200px;
+    width: 290px;
+}
+/** CONTENEUR PRINCIPAL **/
+main{
+    background-color: #ffffff;
+    padding: 20px;
+}
+/** BACKGROUND ONEPIECE **/
+.full-onepiece{
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;  
+    margin: 20px;
+    padding: 15px;
+    background-color: #ffcc00;
+}
+/** BACKGROUND NARUTO **/
+.full-naruto{
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;  
+    margin: 20px;
+    padding: 15px;
+    background-color: #ff5733;
+}
+/** BACKGROUND DEMONS **/
+.full-demon{
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;  
+    margin: 20px;
+    padding: 15px;
+    background-color: #993399;
+}
+/**IMG DES MANGAS **/
+.manga-card-onepiece {
+    height: 150px;
+    width: 150px;
+}
+.manga-card-naruto {
+    height: 150px;
+    width: 150px;
+}
+.manga-card-demon {
+    height: 150px;
+    width: 150px;
+}
+/** --------------------------------- **/
+/** IMPORT FONT GOOOLE LINK REL **/
+h1 {
+    font-family: "Roboto", serif;
+    font-size: 2.5em;
+}
+/** --------------------------------- **/
+/** DECLARER VARIABLE FONT - IMPORTER FONT **/
+@font-face {
+    font-family:"DancingScript-VariableFont";
+    src: url("../fonts/DancingScript-VariableFont.ttf") format('woff2');
+}
+h2 {
+    font-family: 'DancingScript-VariableFont', serif;
+    font-size: 2.5em;
+}
+/** --------------------------------- **/
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #000000;
+}
+/** ---------------------------------
+         BLOCK ET IN-LINE BLOCK
+-------------------------------------- **/
+.bloc {
+    display: block;
+    width: 10%;
+    margin: 1rem;
+    background-color: #229abe;
+    text-align: center;
+}
+.bloc-2 {
+    display: block;
+    width: 10%;
+    margin: 1rem;
+    background-color: #e26a22;
+    text-align: center;
+}
+.item-inline {
+    display: inline-block;
+    width: 500px;
+    height: 80px;
+    margin: 10px;
+    background-color: #f5369d;
+}
+/** --------------------------------- **/
+/** TEST UNITES DE MESURE **/
+.card {
+    width: 80%;
+    height: auto;
+    margin: 2rem;
+    padding: 1em;
+    border : solid;
+    background-color: lightgray;
+}
+.box {
+    width: 60%;
+    height: auto;
+    margin: 30px;
+    padding: 20px;
+    background-color: salmon;
+}
+/** --------------------------------------- 
+                PAGES MANGA
+    --------------------------------------- 
+**/
+/** IMAGES MANGA **/
+.img-pages-manga {
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+/** TABLEAUX **/
+table {
+    /** Bordure commune avec Collapse **/
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: left;
+}
+th,td {
+    border: solid;
+    padding: 10px;
+}
+.color-background {
+    background-color: #EDEDED;
+}
+/** --------------------------------------- **/
