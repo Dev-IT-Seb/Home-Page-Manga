@@ -8,7 +8,11 @@
 
 ## Utilisation du langage HTML et CSS (inline-block)
 
-### "Des MAJ sont prévus pour améliorer ce projet" 
+### "Des MAJ sont prévus pour améliorer ce projet"
+
+<p align="center">
+  <img src="./images/home.png" alt="Page Home Page" width="1000"/>
+</p>
 
 ## Cliquer sur le lien ci-dessous pour visualiser le projet :
 
